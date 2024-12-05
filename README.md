@@ -2,6 +2,11 @@
 
 This page contains some useful scripts from Valentin Paris, Customer Engineer at Microsoft.
 
+Just posted (5th December 2024) is a PowerShell script that is designed to detect and resolve missing target routing addresses for users in an Exchange Hybrid migration environment. It searches a specified Organizational Unit (OU) in Active Directory for users and checks if they have the required target routing address. The script generates two CSV files: one listing users with the target routing address and another listing users without it. Optionally, it can automatically add the missing address to users if uncommented.
+
+You can either download it from the repository, or from [this link](), which is a direct link to this repository's script.
+
+
 Below are several PowerShell scripts designed to manage and report on various aspects of an Exchange Online environment. Here are the key sections:
 
 - **Forwarding Settings Report**: This script gathers all types of forwarding currently in place, including remote domain auto forward settings, inbox rules auto forward, and mail flow rules auto forward or redirect. The results are exported to a CSV file named ```ForwardingReport.csv```.
